@@ -1,0 +1,184 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* font-family: "Open-Sans", sans-serif; */
+font-family: "Open Sans", serif;
+/* background-color: #f2f2f2; */
+}
+
+.head  {
+  /* color: aqua; */
+  background-color: #f2f2f2;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+}
+
+.item-nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color:  rgb(60, 59, 59);
+}
+
+
+.btns {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+.btns .btn {
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.btns .btn2 p {
+  background-color: rgb(39, 76, 39);
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.btn p  {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.388);
+  /* background-color: aqua; */
+  border-radius: 20px;
+  font-size: 15px;
+  color:  rgb(60, 59, 59);
+}
+
+
+
+  /*          section 1         */
+.sec1 {
+  padding: 20px 100px;
+  background-color: #f2f2f2;
+
+}
+
+.jud-sec1 {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 260px;
+  /* position: relative; */
+}
+
+.jud-sec1 h1 {
+  font-size: 150px;
+  color: rgb(60, 59, 59);
+  padding-top: 70px;
+}
+
+.jud-sec1 p {
+  padding-top: 135px;
+  line-height: 25px;
+  text-align: right;
+  color:  rgb(60, 59, 59);
+}
+
+.sec1 .img-contain img {
+ width: 100%;
+ height: auto;
+ border-radius: 20px;
+ margin-top: 10px;
+
+}
+
+.sec1 .img-contain {
+  position: relative;
+  padding-bottom: 40px;
+  /* display: inline-block; */
+}
+
+/* .sec1 .herosec1 {
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+  background-image: url(img/g1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+} */
+
+.sec1 .img-contain .corner-btn {
+  position: absolute; /* Untuk memposisikan tombol di dalam container */
+  top: 10px; /* Jarak dari atas */
+  left: 0; /* Jarak dari kanan */
+  padding: 15px 30px; /* Ukuran tombol */
+  background-color: #1a3e3e; /* Warna latar tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Menghilangkan border tombol */
+  border-radius: 30px; /* Membuat tombol bersudut melengkung */
+  cursor: pointer; /* Menampilkan pointer saat hover */
+  font-size: 14px; /* Ukuran teks tombol */
+  transition: background-color 0.3s ease; /* Efek transisi saat hover */
+  z-index: 999;
+}
+
+.sec1 .img-contain .corner-btn i {
+  margin-left: 10px;
+}
+
+.sec1 .luar-btn {
+  width: 200px;
+  height: 65px;
+  background-color: #f2f2f2;
+  /* border: 2px solid rgb(93, 93, 93); */
+  border-radius:0 0 5px 0;
+  position: absolute  ;
+  top: 10px;
+  left: 0;
+}
+
+
+
+/*        section 2          */
+.sec2 {
+  padding: 20px 100px;
+  background-color: rgb(158, 176, 158);
+
+}
+
+
+.sec2 .desc2 {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  /* background-color: rgb(151, 179, 151); */
+}
+
+.sec2 .desc2 .description-text {
+  /* background-color: rgb(151, 179, 151); */
+  padding-top: 50px;
+  width: 700px;
+  color:  rgb(38, 38, 38);
+  
+}
+
+.sec2 .desc2 .description-text .judul-desc {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-top: 20px;
+  font-weight: bold;
+  
+}
+
+.sec2 .desc2 .description-text p {
+  margin-top: 20px;
+  line-height: 23px;
+}
+
+
+.sec2 img {
+  border-radius: 20px;
+  margin-top: 30px;
+}
