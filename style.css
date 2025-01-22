@@ -102,15 +102,6 @@ font-family: "Open Sans", serif;
   /* display: inline-block; */
 }
 
-/* .sec1 .herosec1 {
-  width: 100%;
-  height: 100vh;
-  border-radius: 20px;
-  background-image: url(img/g1.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-top: 100px;
-} */
 
 .sec1 .img-contain .corner-btn {
   position: absolute; /* Untuk memposisikan tombol di dalam container */
